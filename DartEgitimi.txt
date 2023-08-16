@@ -1,0 +1,54 @@
+// 1. personelin adı Ali'dir.
+// 1. personelin departmanı Paketleme'dir.
+// 1. personelin yaşı 25'tir.
+// 1. personelin kilosu 60,4'tür.
+// 1. personel servis kullanır mı ? Evet.
+// 1. personelin haftalık çalışma saatleri: 45,45,40,27,45 ....
+
+//void main(){
+  
+         // burada doğru değişken atamalarını öğrendim.
+  
+//  String ad = 'Ali';
+//  String departman = 'Paketleme';
+//  int yas = 25;
+//  double kilo =60.4;
+//  bool servisKullanirMi = true;
+//  List<int> haftalikCalismaSaatleri= [45,45,40,27,45];  
+//   print(haftalikCalismaSaatleri[0]);
+  
+         // burada dynamic veri tipini öğrendim.
+  
+//  dynamic buDynamicTipBirDegiskendir;  
+//  buDynamicTipBirDegiskendir = 22;
+//   print(buDynamicTipBirDegiskendir);
+//  buDynamicTipBirDegiskendir = 'Ahmet';
+//   print(buDynamicTipBirDegiskendir);
+  
+         // burada num veri tipini öğrendim.
+  
+//   num buNumTipidir = 12;
+//   buNumTipidir = 12.34;
+  
+         // burada String Interpolation'u öğrendim.
+
+//   String ad = 'Ahmet';
+//   int yas = 25;
+//   double kilo = 60.4;
+//   List<int> haftalikCalismaSaatleri = [40,45,25,30,40];
+//    print('''
+//    Personelin adı $ad 
+//    yaşı $yas 
+//    kilosu $kilo
+//    ''');
+//    print('''
+//    Haftalık Çalışma Saatleri:
+//    1.Hafta ${haftalikCalismaSaatleri[0]}
+//    2.Hafta ${haftalikCalismaSaatleri[1]}
+//    3.Hafta ${haftalikCalismaSaatleri[2]}
+//    ''');
+  
+          // burada anonim fonksiyonları öğrendim.
+
+// "(){kodlar..}" bu şekilde anonim fonksiyon oluşturabiliriz.
+//}
