@@ -1,0 +1,29 @@
+/* ---Pazar Listesi---
+ 1.Patates
+ 2.Soğan
+ 3.Pırasa
+ 4.Peynir
+ 5.Muz
+ */
+/*void main() {
+  List<String> pazarListem = ['Patates', 'Soğan', 'Pırasa', 'Peynir', 'Muz'];
+
+  print('listenin birinci elemanı ${pazarListem[0]}');
+  print('listenin ikinci elemanı ${pazarListem[1]}');
+
+  int peynirinSirasi = pazarListem.indexOf('Peynir');
+  print(peynirinSirasi);
+  
+  pazarListem.add('Çilek');
+  print(pazarListem);
+  pazarListem.add('Limon');
+  print(pazarListem);
+  
+  print(pazarListem.length);
+  
+  pazarListem.insert(2,'Balık');
+  print(pazarListem);
+  
+  print(pazarListem[pazarListem.length-3]);
+}
+*/
