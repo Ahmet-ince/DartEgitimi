@@ -1,0 +1,69 @@
+/*void main() {
+  //var birinciTV = new Televizyon();
+  Televizyon birinciTV = Televizyon();
+  print(birinciTV.ekranBoyutu);
+  print(birinciTV.modelAdi);
+  print(birinciTV);
+  birinciTV.modelAdi='Mega TV';
+  print(birinciTV.modelAdi);
+  
+}
+
+class Televizyon {
+  int ekranBoyutu = 105;
+  String modelAdi = 'Flut TV';
+
+  void sesiAc() {
+    print('hoparlör sesi yükseltildi');
+  }
+}
+*/
+
+/*void main() {
+  Televizyon birinciTV = Televizyon(ekranBilgisi: 101, modelBilgisi: 'Flut TV');
+  Televizyon ikinciTV = Televizyon(ekranBilgisi: 115, modelBilgisi: 'Mega TV');
+  
+  birinciTV.cihazBilgisiGetir();
+  ikinciTV.cihazBilgisiGetir();
+  
+}
+
+class Televizyon {
+  int ekranBoyutu = 0;
+  String modelAdi = 'boş';
+
+  Televizyon({int ekranBilgisi = 0, String modelBilgisi = 'Boş'}) {
+    ekranBoyutu = ekranBilgisi;
+    modelAdi = modelBilgisi;
+  }
+
+  void sesiAc() {
+    print('hoparlör sesi yükseltildi');
+  }
+  
+  void cihazBilgisiGetir(){
+    
+    print('Cihazın Bilgileri\nEkranBoyutu = $ekranBoyutu ekran\nModel Adı = $modelAdi');
+  }
+}
+*/
+
+//CLASS CONSTRUCTORS DÜZGÜN KULLANIMI
+
+/*void main() {
+  Televizyon tv_01 = Televizyon(ekranBoyutu: 101, modelAdi: 'Flut TV');
+
+  print('ekran boyutu: ${tv_01.ekranBoyutu} , model adı: ${tv_01.modelAdi}');
+}
+
+class Televizyon {
+  int ekranBoyutu = 0;
+  String modelAdi = '';
+
+  Televizyon({this.ekranBoyutu = 0, this.modelAdi = 'Default TV'});
+  
+  void sesiAc() {
+    print('hoparlör sesi yükseltildi');
+  }
+}
+*/
