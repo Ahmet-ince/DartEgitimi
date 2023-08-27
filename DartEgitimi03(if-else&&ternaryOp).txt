@@ -1,0 +1,112 @@
+/*import 'dart:math';
+
+void main() {
+  int piyonSayisi = Random().nextInt(10) + 1;
+  print(piyonSayisi);
+
+  if (piyonSayisi >= 7) {
+    print('aptal');
+  }
+  else if (piyonSayisi>=5){
+    print('normal');
+  }
+  else if (piyonSayisi>=3){
+    print('zeki');
+  }
+  else{
+    print('bilgin');
+  }
+}
+*/
+
+/*void main() {
+  int havaSicakligi = 30;
+
+  if (havaSicakligi > 29) {
+    print('klimayi çalıştır');
+  } else if (havaSicakligi > 18) {
+    print('sıcaklık iyi');
+  } else {
+    print('kaloriferi çalıştır');
+  }
+
+  havaSicakligi > 29
+      ? print('klimayı çalıştır')
+      : havaSicakligi > 18
+          ? print('sıcaklık iyi')
+          : print('kaloriferi çalıştır');
+}
+*/
+
+// FLUTTER ÜZERİNDE TERNARY OPERATOR DENEMESİ
+
+/*
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  String seciliButon = 'BOŞ';
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  seciliButon = 'SOL';
+                });
+              },
+              child: Container(
+                width: 100,
+                height: 200,
+                color:
+                    seciliButon == 'SOL' ? Colors.blueAccent : Colors.blueGrey,
+                child: Text(
+                  seciliButon == 'SOL' ? 'AKTİF BUTON' : 'PASİF BUTON',
+                  style: const TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  seciliButon = 'SAĞ';
+                });
+              },
+              child: Container(
+                width: 100,
+                height: 200,
+                color:
+                    seciliButon == 'SAĞ' ? Colors.blueAccent : Colors.blueGrey,
+                child: Text(
+                  seciliButon == 'SAĞ' ? 'AKTİF BUTON' : 'PASİF BUTON',
+                  style: const TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+*/
