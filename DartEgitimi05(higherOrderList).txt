@@ -1,0 +1,13 @@
+void main (){
+  
+  print(ilk5.any((item){return item==6;}  ));
+  print(ilk5.any((item)=>item==6));
+  
+}
+
+List alfabe=['a','a','a','b','c','d','e','f'];
+List nota=['do','re','mi','fa','sol','la','si'];
+List saymaSayilari=['bir','iki','üç','dört','beş','altı','yedi','sekiz'];
+List ilk5=[1,2,3,4,5];
+List karisik=['a','b',1,3,5,'do','re','mi',1.2,1.3];
+List hafta=['pazartesi','salı','çarşamba','perşembe','cuma','cumartesi','pazar'];
